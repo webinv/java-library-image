@@ -1,2 +1,7 @@
 # java-library-image
-Java library image resizer
+
+Java Library Image
+
+- resize
+- crop
+- rotate
