@@ -240,13 +240,10 @@ public class Image {
     public void resizeToHeight (int height) {
         resize(Math.round((this.width * height) / this.height), height);
     }
-
-    /**
-     * @link  https://today.java.net/pub/a/today/2007/04/03/perils-of-image-getscaledinstance.html
-     * @param width
-     * @param height
-     */
+    
     public void resize (int width, int height) {
+        // https://today.java.net/pub/a/today/2007/04/03/perils-of-image-getscaledinstance.html
+
         if (this.width == width && this.height == height) {
             return ;
         }
