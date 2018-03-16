@@ -3,7 +3,7 @@
   <groupId>io.webinv</groupId>
   <artifactId>webinv-image</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
 
   <name>webinv-image</name>
   <description>Image resize, crop, rotate</description>
@@ -30,7 +30,7 @@
     <url>https://github.com/webinv/java-library-image</url>
     <connection>scm:git:git://github.com/webinv/java-library-image.git</connection>
     <developerConnection>scm:git:git@github.com:webinv/java-library-image.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>1.0</tag>
   </scm>
 
   <organization>
